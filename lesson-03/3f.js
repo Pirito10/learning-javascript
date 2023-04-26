@@ -1,1 +1,1 @@
-alert(`Total cost: ${5 + 3}`);
+alert(`Total cost: $${5 + 3}`);
