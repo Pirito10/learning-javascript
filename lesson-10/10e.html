@@ -25,17 +25,17 @@
     <button class="toggle-button js-gaming-button" onclick="toggle('js-gaming-button')">Gaming</button>
     <button class="toggle-button js-music-button" onclick="toggle('js-music-button')">Music</button>
     <button class="toggle-button js-tech-button" onclick="toggle('js-tech-button')">Tech</button>
-</body>
 
-<script>
-    function toggle(selector) {
-        const button = document.querySelector(`.${selector}`)
-        if (!button.classList.contains('is-toggled')) {
-            button.classList.add('is-toggled')
-        } else {
-            button.classList.remove('is-toggled')
+    <script>
+        function toggle(selector) {
+            const button = document.querySelector(`.${selector}`)
+            if (!button.classList.contains('is-toggled')) {
+                button.classList.add('is-toggled')
+            } else {
+                button.classList.remove('is-toggled')
+            }
         }
-    }
-</script>
+    </script>
+</body>
 
 </html>
